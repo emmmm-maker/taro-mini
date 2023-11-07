@@ -1,0 +1,15 @@
+# Ignore the following files and folders from Prettier formatting
+# Add new lines for each entry, one file or folder per line
+
+# Hidden files
+/.gitignore
+/.prettierignore
+
+# Test files
+/coverage
+/coverage/**
+/**/*.json
+/**/*.log
+/dist
+/node_modules
+.DS_Store
