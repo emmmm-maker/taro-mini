@@ -17,7 +17,7 @@ export default defineConfig(async (merge, { command, mode }) => {
       375: 2,
     },
     sourceRoot: 'src',
-    outputRoot: 'dist',
+    outputRoot: `dist/${process.env.TARO_ENV}`,
     plugins: ['@tarojs/plugin-html'],
     sass: {
       data: `@import "@nutui/nutui-taro/dist/styles/variables.scss";`,
